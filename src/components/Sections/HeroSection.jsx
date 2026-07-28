@@ -65,7 +65,8 @@ export function HeroSection() {
             {showImage && (
               <ImageReveal
                 play={showImage}
-                src="/src/assets/Snapchat-2056531218.jpg"
+                // src="/src/assets/Snapchat-2056531218.jpg"
+                src="/Snapchat-2056531218.jpg"
                 alt="Menna"
                 className="scale-95 md:scale-100"
               />
