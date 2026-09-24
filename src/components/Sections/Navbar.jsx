@@ -19,7 +19,7 @@ function Navbar() {
         {/* Logo */}
         <a
           href="#"
-          className="text-2xl font-bold tracking-wide text-white"
+          className="text-2xl font-bold tracking-wide text-white courgette-regular"
         >Menna
           <span className="text-cyan-400">.</span>
         </a>

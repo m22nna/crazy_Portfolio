@@ -6,6 +6,7 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
+    /* --font-rajdhani: Rajdhani", sans-serif; */
   --font-heading: var(--font-mono);
   --font-mono: "JetBrains Mono Variable", monospace;
 
@@ -218,4 +219,16 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #67e8f9;
   }
+}
+.courgette-regular {
+  font-family: "Courgette", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.aboutParagraph {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 25px;
+  /* font-weight: 400; */
+  line-height: 1.5;
+  letter-spacing: 0.3px;
 }
