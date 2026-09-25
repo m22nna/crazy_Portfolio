@@ -21,7 +21,7 @@ function Navbar() {
           href="#"
           className="text-2xl font-bold tracking-wide text-white courgette-regular"
         >Menna
-          <span className="text-cyan-400">.</span>
+          <span className="text-amber-400">.</span>
         </a>
 
         {/* Desktop Menu */}
@@ -30,7 +30,7 @@ function Navbar() {
             <li key={link.name}>
               <a
                 href={link.href}
-                className="text-gray-300 hover:text-cyan-400 transition duration-300"
+                className="text-gray-300 hover:text-amber-400 transition duration-300"
               >
                 {link.name}
               </a>
@@ -41,7 +41,7 @@ function Navbar() {
         {/* Contact Button */}
         <a
           href="#contact"
-          className="hidden md:inline-flex bg-cyan-500 hover:bg-cyan-600 text-white px-5 py-2 rounded-xl transition"
+          className="hidden md:inline-flex bg-amber-500 hover:bg-amber-600 text-black font-semibold px-5 py-2 rounded-xl transition shadow-md shadow-amber-500/10"
         >
           Contact Me
         </a>
@@ -66,7 +66,7 @@ function Navbar() {
               <a
                 href={link.href}
                 onClick={() => setIsOpen(false)}
-                className="text-gray-300 hover:text-cyan-400 transition"
+                className="text-gray-300 hover:text-amber-400 transition"
               >
                 {link.name}
               </a>
@@ -75,7 +75,7 @@ function Navbar() {
 
           <a
             href="#contact"
-            className="bg-cyan-500 hover:bg-cyan-600 text-white px-5 py-2 rounded-xl"
+            className="bg-amber-500 hover:bg-amber-600 text-black font-semibold px-5 py-2 rounded-xl"
           >
             Contact Me
           </a>

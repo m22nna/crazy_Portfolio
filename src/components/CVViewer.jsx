@@ -32,9 +32,10 @@ function CVPreview() {
             py-2
             mx-auto
             rounded-xl
-            bg-cyan-500
-            hover:bg-cyan-600
-            text-white
+            bg-amber-500
+            hover:bg-amber-600
+            text-black
+            font-semibold
             transition
           "
         >

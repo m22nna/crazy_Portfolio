@@ -94,7 +94,7 @@ export default function ImageReveal({
           absolute
           -inset-6
           rounded-[40px]
-          bg-cyan-400/40
+          bg-amber-500/30
           blur-[55px]
           -z-10
         "
@@ -117,8 +117,8 @@ export default function ImageReveal({
             rounded-3xl
             object-cover
             border
-            border-cyan-300/70
-            shadow-[0_0_18px_rgba(34,211,238,.9)]
+            border-amber-400/60
+            shadow-[0_0_25px_rgba(245,158,11,0.4)]
           "
                 />
 
@@ -128,9 +128,9 @@ export default function ImageReveal({
                     className="absolute left-0 top-0 z-50 w-full h-1.25 rounded-full"
                     style={{
                         background:
-                            "linear-gradient(90deg, transparent 0%, #06B6D4 20%, #A5F3FC 50%, #06B6D4 80%, transparent 100%)",
+                            "linear-gradient(90deg, transparent 0%, #f59e0b 20%, #fef08a 50%, #f59e0b 80%, transparent 100%)",
                         boxShadow:
-                            "0 0 12px #06B6D4, 0 0 30px #22D3EE, 0 0 60px #22D3EE",
+                            "0 0 12px #f59e0b, 0 0 30px #eab308, 0 0 60px #eab308",
                     }}
                 />
             </div>

@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import HeroSection from "./components/Sections/HeroSection";
 import About from "./components/Sections/About";
 import Navbar from "./components/Sections/Navbar";
-
+import Contact from "./components/Sections/ContactAndFooter"
 function App() {
   return (
     
@@ -10,6 +10,8 @@ function App() {
       <Navbar/>
       <HeroSection/>
       <About/>
+      <Contact/>
+
       </>
    
   );
